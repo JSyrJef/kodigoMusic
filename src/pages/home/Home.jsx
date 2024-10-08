@@ -30,7 +30,7 @@ export const Home = () => {
       >
         <div className="container-fluid">
           <Link
-            to={"/"}
+            to={"/kodigoMusic/"}
             style={{ textDecoration: "underline", color: "white" }}
           >
             Plans
@@ -47,12 +47,12 @@ export const Home = () => {
             {/* Si el usuario no está logueado, muestra los botones de login/register */}
             {!isLoggedIn ? (
               <>
-                <Link to="/session/login">
+                <Link to="/kodigoMusic/session/login">
                   <button className="auth-button btn btn-danger me-2">
                     Login
                   </button>
                 </Link>
-                <Link to="/session/signup">
+                <Link to="/kodigoMusic/session/signup">
                   <button className="auth-button btn btn-danger me-2">
                     Register
                   </button>
@@ -123,7 +123,7 @@ export const Home = () => {
               <h4>Live the music with Kodigo Music</h4>
               <p>Create a free account to get all benefits and start listening!</p>
             </div>
-            <a href="/session/signup" className="btn-signup">Regístrate gratis</a>
+            <a href="/kodigoMusic/session/signup" className="btn-signup">Regístrate gratis</a>
           </div>
         </div>
       </div>

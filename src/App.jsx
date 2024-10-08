@@ -16,10 +16,10 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path='/session' element={<Session/>}/>
-          <Route path='/session/login' element={<LoginFormComponent/>}/>
-          <Route path='/session/signup' element={<RegisterFormComponent/>}/>
-          <Route path='/' element={<Home/>}/>
+          <Route path='/kodigoMusic/session' element={<Session/>}/>
+          <Route path='/kodigoMusic/session/login' element={<LoginFormComponent/>}/>
+          <Route path='/kodigoMusic/session/signup' element={<RegisterFormComponent/>}/>
+          <Route path='/kodigoMusic/' element={<Home/>}/>
         </Routes>
       </BrowserRouter>
     </>

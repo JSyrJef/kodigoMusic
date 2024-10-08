@@ -13,7 +13,7 @@ export const RegisterFormComponent = () => {
     e.preventDefault();
     try {
       await createUserWithEmailAndPassword(auth, email, password);
-      navigate("/session/login");
+      navigate("/kodigoMusic/session/login");
       alert('Cuenta creada exitosamente!')
     } catch (error) {
       setError(error.message);
@@ -54,7 +54,7 @@ export const RegisterFormComponent = () => {
           <button type="submit" className="btn btn-dark my-2">Register</button>
           <p>
             Ya tienes cuenta?{" "}
-            <Link to="/session/login">Ingresa aqui</Link>
+            <Link to="/kodigoMusic/session/login">Ingresa aqui</Link>
           </p>
         </form>
       </div>

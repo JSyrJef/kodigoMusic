@@ -13,7 +13,7 @@ export const LoginFormComponent = () => {
     e.preventDefault();
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      navigate("/");
+      navigate("/kodigoMusic/");
     } catch (error) {
       setError(error.message);
     }
@@ -55,7 +55,7 @@ export const LoginFormComponent = () => {
           <button type="submit" className="btn btn-dark my-2">Login</button>
           <p>
             No tienes cuenta?{" "}
-            <Link to="/session/signup">Crea un nueva cuenta</Link>
+            <Link to="/kodigoMusic/session/signup">Crea un nueva cuenta</Link>
           </p>
         </form>
       </div>

@@ -1,6 +1,7 @@
 {
   "name": "codigo-music",
-  "private": true,
+  "private": false,
+  "homepage": "/kodigoMusic/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
