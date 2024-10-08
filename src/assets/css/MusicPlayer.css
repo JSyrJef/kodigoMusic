@@ -1,0 +1,71 @@
+.music-player-modern {
+    background-color: #181818;
+    color: white;
+    padding: 10px 20px;
+    z-index: 1030;
+  }
+  
+  .player-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .album-cover-modern {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+  }
+  
+  .song-info-modern h6 {
+    color: white;
+    font-size: 0.95rem;
+  }
+  
+  .song-info-modern p {
+    font-size: 0.85rem;
+    color: #ccc;
+  }
+  
+  .icon-heart-modern, .icon-add-modern {
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .player-controls-modern .control-icon-modern {
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .play-icon-modern {
+    font-size: 2rem;
+    color: #a454ec; /* Color morado */
+  }
+  
+  .progress-bar-container-modern {
+    width: 100%;
+    margin: 0 30px;
+  }
+  
+  .progress-bar-modern {
+    background-color: #555;
+    height: 4px;
+  }
+  
+  .progress-bar-modern .progress-bar {
+    background-color: #a454ec; /* Color morado */
+  }
+  
+  .time-info-modern {
+    color: #bbb;
+    font-size: 0.75rem;
+    margin-top: 5px;
+  }
+  
+  .additional-icons-modern .control-icon-modern {
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }

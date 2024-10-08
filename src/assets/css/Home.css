@@ -1,0 +1,70 @@
+.offcanvas {
+  width: 300px !important;
+  background-color: #242424 !important;
+  border-color: rgba(255, 255, 255, 0.479) !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.offcanvas .offcanvas-body ul li{
+  background-color: #242424 !important;
+  border-color: rgba(255, 255, 255, 0.479) !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.offcanvas .offcanvas-body ul li h4 .noDecorate{
+  text-decoration: none;
+  color: white;
+}
+
+.offcanvas .offcanvas-body ul li h4:hover{
+  background-color: rgb(61, 61, 61);
+  border-radius: 10px;
+}
+
+.navbar {
+  background-color: #242424 !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+  border-bottom: 1px solid rgb(104, 102, 102) !important;
+}
+
+/* message for not login */
+.signup-banner {
+  width: 100%;
+  background-color: #E1C6FF;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.signup-content {
+  display: flex;
+  align-items: center;
+}
+
+.signup-content .icon {
+  font-size: 24px;
+  margin-right: 15px;
+}
+
+.signup-content .text h4 {
+  margin: 0;
+  font-size: 18px;
+  color: #3B3B3B;
+}
+
+.signup-content .text p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.btn-signup {
+  background-color: #9B51E0;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
